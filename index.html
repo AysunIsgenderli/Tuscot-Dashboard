@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <!-- style -->
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+    <title>Tuscot</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="title">
+          <div><img src="./assets/images/logo.png" alt="" /></div>
+
+          <h3>Tuscot</h3>
+        </div>
+        <div class="search">
+          <input type="text" placeholder="Search..." />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="right-side">
+          <div class="new-project">
+            <i class="fa-solid fa-plus"></i>
+            <h4>New Project</h4>
+          </div>
+          <div class="bell-icon">
+            <i class="fa-solid fa-bell"></i>
+            <div class="circle"></div>
+          </div>
+          <div class="manager">
+            <div class="img">
+              <img
+                src="./assets/images/portrait-smiling-businessman-dressed-suit 2.png"
+                alt="" />
+            </div>
+            <div class="manager-info">
+              <p>Cavin Petarson</p>
+              <span>Manager</span>
+            </div>
+            <i class="fa-solid fa-angle-down"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="bars">
+          <a href="#">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <rect x="3" y="3" width="8" height="8" rx="3" fill="#6C5DD3" />
+              <rect x="3" y="13" width="8" height="8" rx="3" fill="#6C5DD3" />
+              <rect x="13" y="3" width="8" height="8" rx="3" fill="#6C5DD3" />
+              <rect x="13" y="13" width="8" height="8" rx="3" fill="#6C5DD3" />
+            </svg>
+            <p class="active">Dashboard</p>
+          </a>
+          <a href="#">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M6 2C4.34315 2 3 3.34315 3 5V19C3 20.6569 4.34315 22 6 22H18C19.6569 22 21 20.6569 21 19V7.74264C21 6.94699 20.6839 6.18393 20.1213 5.62132L17.3787 2.87868C16.8161 2.31607 16.053 2 15.2574 2H6ZM15 4.2071V6C15 7.10457 15.8954 8 17 8H18.7929C19.2383 8 19.4614 7.46143 19.1464 7.14644L15.8536 3.85355C15.5386 3.53857 15 3.76165 15 4.2071ZM7 11C7 10.4477 7.44772 10 8 10H16C16.5523 10 17 10.4477 17 11C17 11.5523 16.5523 12 16 12H8C7.44772 12 7 11.5523 7 11ZM8 14C7.44772 14 7 14.4477 7 15C7 15.5523 7.44772 16 8 16H12C12.5523 16 13 15.5523 13 15C13 14.4477 12.5523 14 12 14H8Z"
+                fill="#B6B6B6" />
+            </svg>
+            <p>Projects</p>
+          </a>
+          <a href="#">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M7 7C7 6.44772 7.44772 6 8 6H20C20.5523 6 21 6.44772 21 7C21 7.55228 20.5523 8 20 8H8C7.44772 8 7 7.55228 7 7Z"
+                fill="#B6B6B6" />
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M7 12C7 11.4477 7.44772 11 8 11H20C20.5523 11 21 11.4477 21 12C21 12.5523 20.5523 13 20 13H8C7.44772 13 7 12.5523 7 12Z"
+                fill="#B6B6B6" />
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M7 17C7 16.4477 7.44772 16 8 16H20C20.5523 16 21 16.4477 21 17C21 17.5523 20.5523 18 20 18H8C7.44772 18 7 17.5523 7 17Z"
+                fill="#B6B6B6" />
+              <path
+                d="M5 7C5 7.55228 4.55228 8 4 8C3.44772 8 3 7.55228 3 7C3 6.44772 3.44772 6 4 6C4.55228 6 5 6.44772 5 7Z"
+                fill="#B6B6B6" />
+              <path
+                d="M5 12C5 12.5523 4.55228 13 4 13C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11C4.55228 11 5 11.4477 5 12Z"
+                fill="#B6B6B6" />
+              <path
+                d="M5 17C5 17.5523 4.55228 18 4 18C3.44772 18 3 17.5523 3 17C3 16.4477 3.44772 16 4 16C4.55228 16 5 16.4477 5 17Z"
+                fill="#B6B6B6" />
+            </svg>
+            <p>My Task</p>
+          </a>
+          <a href="#">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M2 6C2 4.34315 3.34315 3 5 3H19C20.6569 3 22 4.34315 22 6V16C22 17.6569 20.6569 19 19 19H8.36205C8.12811 19 7.90158 19.082 7.72187 19.2318L5.28037 21.2664C3.97771 22.3519 2 21.4256 2 19.7299V6ZM7 9C7 8.44772 7.44772 8 8 8H16C16.5523 8 17 8.44772 17 9C17 9.55228 16.5523 10 16 10H8C7.44772 10 7 9.55228 7 9ZM8 12C7.44772 12 7 12.4477 7 13C7 13.5523 7.44772 14 8 14H12C12.5523 14 13 13.5523 13 13C13 12.4477 12.5523 12 12 12H8Z"
+                fill="#B6B6B6" />
+            </svg>
+            <p>Message</p>
+          </a>
+          <a href="#">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M3 2C3.55228 2 4 2.44772 4 3V19C4 19.5523 4.44772 20 5 20H21C21.5523 20 22 20.4477 22 21C22 21.5523 21.5523 22 21 22H5C3.34315 22 2 20.6569 2 19V3C2 2.44772 2.44772 2 3 2Z"
+                fill="#B6B6B6" />
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M7 8C7.55228 8 8 8.44772 8 9V17C8 17.5523 7.55228 18 7 18C6.44772 18 6 17.5523 6 17V9C6 8.44772 6.44772 8 7 8Z"
+                fill="#B6B6B6" />
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M11 14C11.5523 14 12 14.4477 12 15V17C12 17.5523 11.5523 18 11 18C10.4477 18 10 17.5523 10 17V15C10 14.4477 10.4477 14 11 14Z"
+                fill="#B6B6B6" />
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M15 4C15.5523 4 16 4.44772 16 5V17C16 17.5523 15.5523 18 15 18C14.4477 18 14 17.5523 14 17V5C14 4.44772 14.4477 4 15 4Z"
+                fill="#B6B6B6" />
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M19 10C19.5523 10 20 10.4477 20 11V17C20 17.5523 19.5523 18 19 18C18.4477 18 18 17.5523 18 17V11C18 10.4477 18.4477 10 19 10Z"
+                fill="#B6B6B6" />
+            </svg>
+            <p>Analytics</p>
+          </a>
+        </div>
+        <div class="main-side">
+          <div class="task-types">
+            <div class="card">
+              <svg
+                width="40"
+                height="40"
+                viewBox="0 0 40 40"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <rect width="40" height="40" rx="8" fill="#64CBF4" />
+                <path
+                  d="M11 26V28C11 29.1046 11.8954 30 13 30H27C28.1046 30 29 29.1046 29 28V26C29 23.2386 26.7614 21 24 21H16C13.2386 21 11 23.2386 11 26Z"
+                  fill="white" />
+                <circle cx="20" cy="14.5" r="4.5" fill="white" />
+              </svg>
+              <h5>Total Employees</h5>
+              <h3>2.3016</h3>
+              <p>Task</p>
+              <div><span>+35% </span>This Month</div>
+            </div>
+            <div class="card">
+              <svg
+                width="40"
+                height="40"
+                viewBox="0 0 40 40"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <rect width="40" height="40" rx="8" fill="#FF9F38" />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M16.2006 11.2586L15.4091 13H13C11.5503 13 10.3407 14.0283 10.0609 15.3954C10.021 15.5907 10 15.7929 10 16V17.5C10 18.8807 11.1193 20 12.5 20H16.1707C16.5825 18.8348 17.6938 18 19 18H21C22.3062 18 23.4175 18.8348 23.8293 20H27.5C28.8807 20 30 18.8807 30 17.5V16C30 14.3431 28.6569 13 27 13H24.5909L23.7994 11.2586C23.3125 10.1876 22.2447 9.5 21.0683 9.5H18.9317C17.7553 9.5 16.6875 10.1876 16.2006 11.2586ZM21.0683 11.5H18.9317C18.5396 11.5 18.1836 11.7292 18.0214 12.0862L17.606 13H22.394L21.9786 12.0862C21.8164 11.7292 21.4604 11.5 21.0683 11.5Z"
+                  fill="white" />
+                <path
+                  d="M16.1707 22H12.5C11.7423 22 11.0284 21.8127 10.4019 21.482C10.2251 21.3886 10 21.5105 10 21.7104V27C10 28.6569 11.3431 30 13 30H27C28.6569 30 30 28.6569 30 27V21.7104C30 21.5105 29.7749 21.3886 29.5981 21.482C28.9716 21.8127 28.2577 22 27.5 22H23.8293C23.4175 23.1652 22.3062 24 21 24H19C17.6938 24 16.5825 23.1652 16.1707 22Z"
+                  fill="white" />
+                <path
+                  d="M19 20C18.4477 20 18 20.4477 18 21C18 21.5523 18.4477 22 19 22H21C21.5523 22 22 21.5523 22 21C22 20.4477 21.5523 20 21 20H19Z"
+                  fill="white" />
+              </svg>
+              <h5>Total Tasks</h5>
+              <h3>2.3016</h3>
+              <p>Task</p>
+              <div><span>+35% </span>This Month</div>
+            </div>
+            <div class="card">
+              <svg
+                width="40"
+                height="40"
+                viewBox="0 0 40 40"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <rect width="40" height="40" rx="8" fill="#E391EA" />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M14 13C14 11.3431 15.3431 10 17 10H27C28.6569 10 30 11.3431 30 13V23C30 24.6569 28.6569 26 27 26H26V27C26 28.6569 24.6569 30 23 30H13C11.3431 30 10 28.6569 10 27V17C10 15.3431 11.3431 14 13 14H14V13ZM25.2682 15.0365C24.9322 14.9433 24.557 15.0287 24.2929 15.2929L21 18.5858L19.7071 17.2929C19.3166 16.9024 18.6834 16.9024 18.2929 17.2929C17.9024 17.6834 17.9024 18.3166 18.2929 18.7071L20.2929 20.7071C20.6834 21.0976 21.3166 21.0976 21.7071 20.7071L25.7071 16.7071C25.8047 16.6095 25.878 16.4967 25.9268 16.3763C25.9286 16.3718 25.9304 16.3673 25.9322 16.3627C26.0714 16.0044 25.9963 15.5821 25.7071 15.2929C25.5807 15.1665 25.429 15.081 25.2682 15.0365ZM24 26H17C15.3431 26 14 24.6569 14 23V16H13C12.4477 16 12 16.4477 12 17V27C12 27.5523 12.4477 28 13 28H23C23.5523 28 24 27.5523 24 27V26Z"
+                  fill="white" />
+              </svg>
+              <h5>Complated Task</h5>
+              <h3>2.3016</h3>
+              <p>Task</p>
+              <div><span>+35% </span>This Month</div>
+            </div>
+            <div class="card">
+              <svg
+                width="40"
+                height="40"
+                viewBox="0 0 40 40"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <rect width="40" height="40" rx="8" fill="#6C5DD3" />
+                <rect
+                  x="8.5"
+                  y="8.5"
+                  width="23"
+                  height="23"
+                  rx="2.5"
+                  fill="#6C5DD3" />
+                <path
+                  d="M14.7072 13.2929C14.3167 12.9024 13.6835 12.9024 13.293 13.2929C12.9025 13.6834 12.9025 14.3166 13.293 14.7071L18.5858 20L13.2929 25.2929C12.9024 25.6834 12.9024 26.3166 13.2929 26.7071C13.6834 27.0976 14.3166 27.0976 14.7071 26.7071L20 21.4142L25.293 26.7071C25.6835 27.0976 26.3167 27.0976 26.7072 26.7071C27.0977 26.3166 27.0977 25.6834 26.7072 25.2929L21.4143 20L26.7071 14.7071C27.0976 14.3166 27.0976 13.6834 26.7071 13.2929C26.3166 12.9024 25.6834 12.9024 25.2929 13.2929L20 18.5857L14.7072 13.2929Z"
+                  fill="white" />
+                <rect
+                  x="8.5"
+                  y="8.5"
+                  width="23"
+                  height="23"
+                  rx="2.5"
+                  stroke="white" />
+              </svg>
+              <h5>Incompleted Task</h5>
+              <h3>2.3016</h3>
+              <p>Task</p>
+              <div><span>+35% </span>This Month</div>
+            </div>
+            <div class="large-card card">
+              <h5>Task Target Actual vs Prediction</h5>
+              <div>
+                <h3>10,468</h3>
+                <p>Task</p>
+              </div>
+            </div>
+          </div>
+          <div class="task-info">
+            <div class="card">
+              <h5>Complete Task Target</h5>
+              <div class="circle">
+                <div class="box">
+                  <div class="percent">
+                    <svg>
+                      <circle cx="70" cy="70" r="70"></circle>
+                      <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                      <h2>95<span>%</span></h2>
+                      <p>Task</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-info">
+                <div class="left-side">
+                  <svg
+                    width="36"
+                    height="36"
+                    viewBox="0 0 36 36"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <rect width="36" height="36" rx="5" fill="#BFF1DF" />
+                    <circle cx="18" cy="18" r="6" fill="white" />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M18 26C13.5817 26 10 22.4183 10 18C10 13.5817 13.5817 10 18 10C22.4183 10 26 13.5817 26 18C26 22.4183 22.4183 26 18 26ZM16.6807 14.9983C16.6269 14.9635 16.5641 14.945 16.5 14.945C16.316 14.945 16.1666 15.0943 16.1666 15.2784V20.7216C16.1666 20.7857 16.1851 20.8485 16.2199 20.9024C16.3197 21.0571 16.526 21.1015 16.6807 21.0017L20.8993 18.2802C20.939 18.2545 20.9729 18.2206 20.9986 18.1807C21.0984 18.026 21.0539 17.8198 20.8993 17.7199L16.6807 14.9983Z"
+                      fill="#52CD9F" />
+                  </svg>
+                  <div>
+                    <h6>Completed Task</h6>
+                    <span>Global</span>
+                  </div>
+                </div>
+                <div class="right-side">
+                  <p>455</p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <h5>Task Count</h5>
+              <div class="task-bars">
+                <div class="task-bar bar_1">
+                  <div class="gray-part line"></div>
+                  <div class="green-part line"></div>
+                  <p>Jan</p>
+                </div>
+                <div class="task-bar bar_2">
+                  <div class="gray-part line"></div>
+                  <div class="green-part line"></div>
+                  <p>Feb</p>
+                </div>
+                <div class="task-bar bar_3">
+                  <div class="gray-part line"></div>
+                  <div class="green-part line"></div>
+                  <p>Mar</p>
+                </div>
+                <div class="task-bar bar_4">
+                  <div class="gray-part line"></div>
+                  <div class="green-part line"></div>
+                  <p>Apr</p>
+                </div>
+                <div class="task-bar bar_5">
+                  <div class="gray-part line"></div>
+                  <div class="green-part line"></div>
+                  <p>May</p>
+                </div>
+              </div>
+              <div class="card-info">
+                <div class="left-side">
+                  <svg
+                    width="36"
+                    height="36"
+                    viewBox="0 0 36 36"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <rect width="36" height="36" rx="5" fill="#E0F5FD" />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M17.9999 10.5C16.3431 10.5 14.9999 11.8431 14.9999 13.5H13.9862C12.8514 13.5 11.8943 14.345 11.7535 15.4709L10.816 22.9709C10.6482 24.3138 11.6953 25.5 13.0487 25.5H22.9512C24.3045 25.5 25.3516 24.3138 25.1838 22.9709L24.2463 15.4709C24.1055 14.345 23.1484 13.5 22.0137 13.5H20.9999C20.9999 11.8431 19.6568 10.5 17.9999 10.5ZM19.4999 15V15.75C19.4999 16.1642 19.8357 16.5 20.2499 16.5C20.6641 16.5 20.9999 16.1642 20.9999 15.75V15H22.0137C22.3919 15 22.7109 15.2817 22.7579 15.657L23.6954 23.157C23.7513 23.6046 23.4023 24 22.9512 24H13.0487C12.5975 24 12.2485 23.6046 12.3045 23.157L13.242 15.657C13.2889 15.2817 13.6079 15 13.9862 15H14.9999V15.75C14.9999 16.1642 15.3357 16.5 15.7499 16.5C16.1641 16.5 16.4999 16.1642 16.4999 15.75V15H19.4999ZM19.4999 13.5C19.4999 12.6716 18.8284 12 17.9999 12C17.1715 12 16.4999 12.6716 16.4999 13.5H19.4999Z"
+                      fill="#64CBF4" />
+                  </svg>
+                  <div>
+                    <h6>Expanslon Europo</h6>
+                    <span>Global</span>
+                  </div>
+                </div>
+                <div class="right-side">
+                  <p>245</p>
+                </div>
+              </div>
+              <div class="card-info">
+                <div class="left-side">
+                  <svg
+                    width="36"
+                    height="36"
+                    viewBox="0 0 36 36"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <rect width="36" height="36" rx="5" fill="#FAE6D2" />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M24 13.628V12.75C24 11.5074 22.9926 10.5 21.75 10.5H12.75C11.5074 10.5 10.5 11.5074 10.5 12.75V23.25C10.5 24.4926 11.5074 25.5 12.75 25.5H23.25C24.4926 25.5 25.5 24.4926 25.5 23.25V15.75C25.5 14.7703 24.8739 13.9369 24 13.628ZM12 12.75C12 12.3358 12.3358 12 12.75 12H21.75C22.1642 12 22.5 12.3358 22.5 12.75V13.5H12.75C12.3358 13.5 12 13.1642 12 12.75ZM12 14.872C12.2346 14.9549 12.487 15 12.75 15H23.25C23.6642 15 24 15.3358 24 15.75V17.25H21.75C20.5074 17.25 19.5 18.2574 19.5 19.5C19.5 20.7426 20.5074 21.75 21.75 21.75H24V23.25C24 23.6642 23.6642 24 23.25 24H12.75C12.3358 24 12 23.6642 12 23.25V14.872ZM21.75 18.75H24V20.25H21.75C21.3358 20.25 21 19.9142 21 19.5C21 19.0858 21.3358 18.75 21.75 18.75Z"
+                      fill="#FF9F38" />
+                  </svg>
+                  <div>
+                    <h6>Payment Promo</h6>
+                    <span>Commercial</span>
+                  </div>
+                </div>
+                <div class="right-side">
+                  <p>122</p>
+                </div>
+              </div>
+            </div>
+            <div class="employees-card">
+              <h5>Top Employees</h5>
+              <div class="employee">
+                <div class="img">
+                  <img
+                    src="./assets/images/portrait-smiling-businessman-dressed-suit 2.png"
+                    alt="" />
+                </div>
+                <div>Rudolph G</div>
+                <div>Product Designer</div>
+                <div>194 Tasks</div>
+                <div class="active">1.230 pts</div>
+              </div>
+              <div class="employee">
+                <div class="img">
+                  <img src="./assets/images/employee2.png" alt="" />
+                </div>
+                <div>Anna F</div>
+                <div>Frontend Engineer</div>
+                <div>194 Tasks</div>
+                <div class="active">1.230 pts</div>
+              </div>
+              <div class="employee">
+                <div class="img">
+                  <img src="./assets/images/employee3.png" alt="" />
+                </div>
+                <div>Marco D.G</div>
+                <div>Social Media</div>
+                <div>194 Tasks</div>
+                <div class="active">1.230 pts</div>
+              </div>
+              <div class="employee">
+                <div class="img">
+                  <img src="./assets/images/employee4.png" alt="" />
+                </div>
+                <div>Robert X</div>
+                <div>Growth</div>
+                <div>194 Tasks</div>
+                <div class="active">1.230 pts</div>
+              </div>
+              <div class="employee">
+                <div class="img">
+                  <img src="./assets/images/employee4.png" alt="" />
+                </div>
+                <div>Robert X</div>
+                <div>Growth</div>
+                <div>194 Tasks</div>
+                <div class="active">1.230 pts</div>
+              </div>
+            </div>
+          </div>
+          <div class="development-areas">
+            <div class="card">
+              <h5>Technology & Design Team</h5>
+              <p>940</p>
+              <span>Employees</span>
+              <div class="progress-bar">
+                <div class="purple-part"></div>
+                <div class="gray-part"></div>
+              </div>
+            </div>
+            <div class="card">
+              <h5>Business & Marketing Team</h5>
+              <p>194</p>
+              <span>Employees</span>
+              <div class="progress-bar">
+                <div class="pink-part-1"></div>
+                <div class="gray-part"></div>
+              </div>
+            </div>
+            <div class="card">
+              <h5>Customer Operation Team</h5>
+              <p>712</p>
+              <span>Employees</span>
+              <div class="progress-bar">
+                <div class="pink-part-2"></div>
+                <div class="gray-part"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./assets/script.js"></script>
+  </body>
+</html>

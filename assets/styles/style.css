@@ -1,0 +1,445 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.container {
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+header {
+  padding: 10px 0;
+}
+header .container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container .title {
+  display: flex;
+  align-items: center;
+  width: 30%;
+}
+header .container .title h3 {
+  font-size: 25px;
+  margin: 0 10px;
+}
+header .container .search {
+  position: relative;
+  width: 30%;
+}
+header .container .search input {
+  position: relative;
+  width: 100%;
+  height: 41px;
+  background-color: rgb(247, 248, 249);
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 12px;
+}
+header .container .search i {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: gray;
+}
+header .container .right-side {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+}
+header .container .right-side .new-project {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  background-color: rgb(108, 93, 211);
+  color: #fff;
+  padding: 10px 5px;
+  border-radius: 5px;
+}
+header .container .right-side .new-project h4 {
+  font-weight: 400;
+  margin-left: 10px;
+}
+header .container .right-side .bell-icon {
+  width: 15%;
+  position: relative;
+}
+header .container .right-side .bell-icon .circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgb(255, 159, 56);
+  position: absolute;
+  top: -7px;
+  right: 23px;
+}
+header .container .right-side .bell-icon i {
+  font-size: 20px;
+  color: gray;
+}
+header .container .right-side .manager {
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+header .container .right-side .manager .img img {
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  margin-top: 20px;
+}
+main .container {
+  display: flex;
+}
+main .container .bars {
+  display: flex;
+  flex-direction: column;
+  width: 18%;
+}
+main .container .bars a {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+  padding: 8px 0;
+}
+main .container .bars a:first-child {
+  border-right: 2px solid rgb(108, 93, 211);
+}
+main .container .bars a .active {
+  color: rgb(108, 93, 211);
+}
+main .container .bars a p {
+  margin-left: 10px;
+  font-weight: 500;
+  color: rgb(182, 182, 182);
+}
+main .container .main-side {
+  width: 82%;
+  padding: 20px 10px 100px 10px;
+  background-color: rgb(232, 235, 237);
+}
+main .container .main-side h5 {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 20px;
+  color: rgb(0, 0, 0);
+}
+main .container .main-side .task-types {
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+main .container .main-side .task-types .card {
+  background-color: #fff;
+  width: 17%;
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+main .container .main-side .task-types .card h5 {
+  color: rgb(182, 182, 182);
+  font-weight: 400;
+  font-size: 14px;
+  margin: 15px 0;
+}
+main .container .main-side .task-types .card h3 {
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+}
+main .container .main-side .task-types .card p {
+  color: rgb(182, 182, 182);
+  font-size: 14px;
+}
+main .container .main-side .task-types .card div {
+  color: rgb(182, 182, 182);
+  font-size: 12px;
+  margin: 15px 0 5px 0;
+}
+main .container .main-side .task-types .card div span {
+  color: rgb(108, 93, 211);
+}
+main .container .main-side .task-types .large-card {
+  height: 100%;
+  width: 25%;
+  position: relative;
+  background-color: #fff;
+  border-radius: 10px;
+}
+main .container .main-side .task-types .large-card h5 {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  margin: 15px 0;
+}
+main .container .main-side .task-types .large-card div {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+main .container .main-side .task-types .large-card div::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 200px;
+  height: 200px;
+  border: 20px solid;
+  box-sizing: border-box;
+  border-color: rgb(108, 93, 211) rgb(108, 93, 211) rgb(182, 182, 182) rgb(182, 182, 182);
+  border-radius: 50%;
+  transform: rotate(260deg);
+}
+main .container .main-side .task-info {
+  display: flex;
+  justify-content: space-between;
+  height: 350px;
+  margin: 20px 0;
+}
+main .container .main-side .task-info .card {
+  width: 28%;
+  height: 100%;
+  background-color: #fff;
+  position: relative;
+  border-radius: 10px;
+  padding: 15px 10px;
+}
+main .container .main-side .task-info .card .circle {
+  margin: 20px 0 70px 0;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+main .container .main-side .task-info .card .circle .box .percent {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  z-index: 1000;
+}
+main .container .main-side .task-info .card .circle .box .percent .number {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+main .container .main-side .task-info .card .circle .box .percent .number h2 {
+  font-size: 30px;
+}
+main .container .main-side .task-info .card .circle .box .percent .number p {
+  color: rgb(182, 182, 182);
+}
+main .container .main-side .task-info .card .circle .box .percent svg {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  z-index: 1000;
+  transform: rotate(200deg);
+}
+main .container .main-side .task-info .card .circle .box .percent svg circle {
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke: rgb(232, 235, 237);
+  stroke-width: 10;
+  stroke-linecap: round;
+  transform: translate(5px, 5px);
+}
+main .container .main-side .task-info .card .circle .box .percent svg circle:nth-child(2) {
+  stroke-dasharray: 440;
+  stroke-dashoffset: 22;
+  stroke: rgb(82, 205, 159);
+}
+main .container .main-side .task-info .card .card-info {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+main .container .main-side .task-info .card .card-info .left-side {
+  display: flex;
+}
+main .container .main-side .task-info .card .card-info .left-side div {
+  margin-left: 10px;
+}
+main .container .main-side .task-info .card .card-info .left-side div span {
+  color: rgb(182, 182, 182);
+  font-size: 12px;
+}
+main .container .main-side .task-info .card .card-info .left-side div h6 {
+  font-size: 13px;
+  color: rgb(0, 0, 0);
+}
+main .container .main-side .task-info .card .card-info .right-side p {
+  font-size: 13px;
+  font-weight: 500;
+}
+main .container .main-side .task-info .card .task-bars {
+  margin-bottom: 25px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 100%;
+  height: 200px;
+}
+main .container .main-side .task-info .card .task-bars .task-bar {
+  width: 14%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(232, 235, 237);
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+main .container .main-side .task-info .card .task-bars .task-bar .gray-part {
+  height: 20%;
+  width: 100%;
+  background-color: rgb(232, 235, 237);
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+main .container .main-side .task-info .card .task-bars .task-bar .green-part {
+  height: 80%;
+  width: 100%;
+  background-color: rgb(108, 93, 211);
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+main .container .main-side .task-info .card .task-bars .task-bar p {
+  background-color: #fff;
+}
+main .container .main-side .task-info .card .task-bars .bar_1 {
+  height: 70%;
+}
+main .container .main-side .task-info .card .task-bars .bar_2 {
+  height: 60%;
+}
+main .container .main-side .task-info .card .task-bars .bar_3 {
+  height: 80%;
+}
+main .container .main-side .task-info .card .task-bars .bar_4 {
+  height: 75%;
+}
+main .container .main-side .task-info .card .task-bars .bar_5 {
+  height: 90%;
+}
+main .container .main-side .task-info .employees-card {
+  height: 100%;
+  width: 40%;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  flex-direction: column;
+  border-radius: 10px;
+}
+main .container .main-side .task-info .employees-card .employee {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+main .container .main-side .task-info .employees-card .employee div {
+  width: 18%;
+  font-size: 14px;
+  font-weight: 500;
+}
+main .container .main-side .task-info .employees-card .employee .active {
+  color: rgb(108, 93, 211);
+}
+main .container .main-side .task-info .employees-card .employee .img {
+  width: 40px;
+  height: 40px;
+}
+main .container .main-side .task-info .employees-card .employee .img img {
+  width: 100%;
+  height: 100%;
+}
+main .container .main-side .development-areas {
+  display: flex;
+  justify-content: space-between;
+  max-width: 80%;
+  height: 130px;
+}
+main .container .main-side .development-areas .card {
+  border-radius: 10px;
+  width: 32%;
+  height: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px 10px;
+}
+main .container .main-side .development-areas .card h5 {
+  font-size: 13px;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+}
+main .container .main-side .development-areas .card p {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+main .container .main-side .development-areas .card span {
+  font-size: 13px;
+  color: rgb(182, 182, 182);
+}
+main .container .main-side .development-areas .card .progress-bar {
+  display: flex;
+  width: 100%;
+  background-color: rgb(232, 235, 237);
+  border-radius: 5px;
+  margin: 10px 0;
+}
+main .container .main-side .development-areas .card .progress-bar .purple-part {
+  width: 80%;
+  background-color: rgb(108, 93, 211);
+  height: 7px;
+  border-radius: 5px;
+}
+main .container .main-side .development-areas .card .progress-bar .gray-part {
+  height: 7px;
+}
+main .container .main-side .development-areas .card .progress-bar .pink-part-1 {
+  width: 20%;
+  height: 7px;
+  background-color: rgb(241, 74, 91);
+  border-radius: 5px;
+}
+main .container .main-side .development-areas .card .progress-bar .pink-part-2 {
+  width: 50%;
+  height: 7px;
+  background-color: rgb(241, 74, 91);
+  border-radius: 5px;
+}/*# sourceMappingURL=style.css.map */
